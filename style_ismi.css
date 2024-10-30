@@ -1,0 +1,87 @@
+nav {
+    background-color: transparent;
+    font-size: larger;
+}
+
+.nav-link {
+    color: #7C96AB;
+}
+
+.nav-link:hover {
+    color: #7C96AB;
+}
+
+.fa {
+    size: 30px;
+}
+
+.navbar-brand {
+    color: #7C96AB;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.navbar-toggler {
+    background-color: #7C96AB;
+}
+
+.navbar-brand:hover {
+    color: #7C96AB;
+}
+
+body {
+    background-color: #181C14;
+    font-family: 'Poppins', sans-serif;
+    min-height: 2000px;
+}
+
+.row {
+    color: white;
+    margin-top: 3rem;
+}
+
+.p-4 {
+    margin-top: 6rem;
+    text-align: left;
+}
+
+.h1,
+h1 {
+    color: white;
+}
+
+.h3,
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.img-thumbnail {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0;
+    width: 300px;
+    max-width: 89%;
+}
+
+.h1,
+span {
+    color: #7C96AB;
+}
+
+.fa {
+    color: #7C96AB;
+}
+
+.h2,
+h2 {
+    color: #7C96AB;
+    font-weight: bold;
+}
+
+#tentang {
+    margin-top: 8rem;
+}
