@@ -1,7 +1,6 @@
 nav {
     background-color: transparent;
     font-size: larger;
-    position: fixed;
 }
 
 .nav-link {
@@ -20,7 +19,6 @@ nav {
     color: #7C96AB;
     font-weight: bold;
     font-size: xx-large;
-    position: fixed;
 }
 
 .navbar-toggler {
@@ -34,7 +32,7 @@ nav {
 body {
     background-color: #181C14;
     font-family: 'Poppins', sans-serif;
-    min-height: 2000px;
+    min-height: 2600px;
 }
 
 .row {
@@ -42,13 +40,8 @@ body {
     margin-top: 3rem;
 }
 
-.p-4 {
-    margin-top: 6rem;
-    text-align: left;
-}
-
 #tentang {
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 .h1,
@@ -61,24 +54,27 @@ h3 {
     color: white;
 }
 
-p {
+.h6,
+h6 {
     color: white;
 }
 
-#portofolio {
-    padding-top: 1rem;
+p {
+    color: black;
 }
 
-.section,
-.portofolio,
-p {
+/* #portofolio {
+    padding-top: 1rem;
+} */
+
+.portofolio p {
     color: #181C14;
 }
 
-.portofolio,
+/* .portofolio,
 .row {
     margin-top: 4rem;
-}
+} */
 
 .img-thumbnail {
     background-color: transparent;
@@ -104,5 +100,5 @@ h2 {
 }
 
 #tentang {
-    margin-top: 8rem;
+    margin-top: 7rem;
 }
