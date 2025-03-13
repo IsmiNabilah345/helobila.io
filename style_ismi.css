@@ -1,6 +1,8 @@
 nav {
     background-color: transparent;
     font-size: larger;
+    position: fixed;
+    top: 0;
 }
 
 .nav-link {
