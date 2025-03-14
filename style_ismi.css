@@ -103,3 +103,9 @@ h2 {
 #tentang {
     margin-top: 7rem;
 }
+
+#buton {
+    position: fixed;
+    max-width: 5%;
+    margin-top: 37%;
+}
