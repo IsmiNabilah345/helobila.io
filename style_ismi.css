@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     background-color: transparent;
     font-size: larger;
@@ -108,4 +112,5 @@ h2 {
     position: fixed;
     max-width: 5%;
     margin-top: 37%;
+    margin-right: -45%;
 }
