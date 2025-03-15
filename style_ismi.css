@@ -111,11 +111,11 @@ h2 {
 #buton {
     position: fixed;
     max-width: 5%;
-    min-width: 8%;
-    margin-top: 35%;
+    min-width: 5%;
+    margin-top: 37%;
     margin-right: -45%;
 }
 
 #skil {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
