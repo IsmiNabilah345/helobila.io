@@ -124,6 +124,21 @@ h2 {
     margin-top: 3rem;
 }
 
+.group {
+    margin-top: 15rem;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+}
+
+.group .text {
+    color: white;
+    position: absolute;
+    margin: 5px 0;
+    padding: 0;
+    width: max-content;
+    animation: my-animation 13s linear infinite;
+}
 
 footer {
     margin-top: 15rem;

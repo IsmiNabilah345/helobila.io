@@ -287,9 +287,28 @@
         </div>
     </section>
 
-    <footer>
+
+    <div class="group">
+        <p class="text">© 2025 Ismi All Rights Reserved</p>
+    </div>
+
+
+    <script>
+        var style = document.createElement('style');
+        var position = 'right';
+
+        style.innerHTML = `@keyframes my-animation{
+        0%{${position}:-${document.querySelector('.text').offsetWidth + 10}px;}
+        100%{${position}:100%;}
+        }`;
+
+        document.head.append(style);
+
+    </script>
+
+    <!-- <footer>
         <p class="mt-2 text-center" style="color: white;">© 2025 Ismi All Rights Reserved</p>
-    </footer>
+    </footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
